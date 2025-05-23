@@ -71,6 +71,7 @@ contract Ballot {
     address public admin;
 
    enum state {
+    init,
     pass,
     fail
    }
